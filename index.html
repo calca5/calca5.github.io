@@ -1,63 +1,130 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title> Carolina A</title>
-  <meta charset="utf-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carolina A</title>
   <meta name="author" content="Carolina">
- </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #004643;
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 0;
+    }
 
- <body>
-  <div class="banner">
-  <img src="/photos/Dolphin-Facts-1.jpg" alt="Carolina's favorite animal">
-  </div>
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      width: 100%;
+    }
 
-  <div>
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+      font-size: 2em;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+      background-color: #001e1d;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      background-color: #f9bc60;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .link img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="items">
+    <div class="banner">
+      <img src="/photos/Dolphin-Facts-1.jpg" alt="Carolina's favorite animal" class="banner-image">
+    </div>
+
     <div class="name">
       Carolina
     </div>
 
-    <div class="soccial icons">
-    <a href="https://github.com/calca5" target="_blank">
-      Github
-    </a>
-    
-   <a href=" https://www.linkedin.com/in/carolina-alcantar-59a29a283/" target="_blank">
-    Linkedin
-   </a>
+    <div class="social-icons">
+      <a href="https://github.com/calca5" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/carolina-alcantar-59a29a283/" target="_blank">Linkedin</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      <a href="https://x.com/explore" target="_blank">Twitter</a>
+    </div>
 
-   <a href="https://www.instagram.com" target="_blank">
-   Instagram
-  </a>
+    <div class="links">
+      <div class="link">
+        <img src="/photos/Dolphin-Facts-1.jpg" alt="Dolphin Research Center">
+        <a href="https://dolphins.org/kids_dolphin_facts" target="_blank">All about Dolphin facts</a>
+      </div>
 
-  <a href="https://x.com/explore"  target="_blank">
-  Twitter
-  </a>
+      <div class="link">
+        <img src="/photos/ASL.jpg" alt="Sign Language 101">
+        <a href="https://www.signlanguage101.com/" target="_blank">Sign Language 101</a>
+      </div>
 
+      <div class="link">
+        <img src="https://cst.brightspotcdn.com/dims4/default/20805bd/2147483647/strip/true/crop/2048x1365+0+85/resize/1680x1120!/format/webp/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6c%2F6f%2F6243052244ad92193b6cd25936c6%2F448936887-762071732807912-1206501844588921439-n.jpg" alt="Flooding in Animal Shelter">
+        <a href="https://chicago.suntimes.com/news/2024/06/26/wheeling-animal-shelter-flooding-displaces-cats-dogs-pets-welfare-suburban-chicago-rescue-adoption" target="_blank">Flooding in animal shelter</a>
+      </div>
+    </div>
   </div>
- <div class="link">
-  <img src= https://www.google.com/search?sca_esv=2824f6c15da170a4&sca_upv=1&rlz=1C1ONGR_enUS1120US1120&sxsrf=ADLYWIIoO0hzy5bgcgOD69EQJXsoGHDv1g:1723766266434&q=dolphin+research+center&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J3ppPdoHI1O-XvbXbpNjYYyyK5vBQSXmmfgAtXwDT_UwvibZ0pSIVFX3lVg5uBH9KRkcNkP3cvvJNBG5JuLgxBs03YF7ZheWmRhqfgCmBhS5yZO_qSYPUz1kdaqkhrbFz3Mf8Q0E_4snLTQxYAI7iP8mYotlN5aOxhpc520NgyAQJl-AZw&sa=X&ved=2ahUKEwi___HfmfiHAxUDj4kEHUwKKbgQ0pQJegQIEhAB&biw=1494&bih=799&dpr=1.5>
-   
-  <a target="_blank" href="https://dolphins.org/kids_dolphin_facts">
-     All about Dolphin facts
-  </a>
- </div>
-
-<div class="link">
-  <img src="/photos/ASL.jpg">
-  
-  <a target="_blank"
-   href="https://www.signlanguage101.com/">
-  Sign Laungage 101
-</a>
-</div>
-
-<div class="link">
-  <img src="https://cst.brightspotcdn.com/dims4/default/20805bd/2147483647/strip/true/crop/2048x1365+0+85/resize/1680x1120!/format/webp/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F6c%2F6f%2F6243052244ad92193b6cd25936c6%2F448936887-762071732807912-1206501844588921439-n.jpg">
-
-<a target="_blank" href="https://chicago.suntimes.com/news/2024/06/26/wheeling-animal-shelter-flooding-displaces-cats-dogs-pets-welfare-suburban-chicago-rescue-adoption">
-  Flooding in animal shelter
-</a>
-</div>
-
- </body>
+</body>
 </html>
